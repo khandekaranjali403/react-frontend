@@ -1,0 +1,68 @@
+/* CSS for the table */
+.myAdvantureContainerr{
+  margin-left: 80px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  height: auto;
+  padding: 20px;
+}
+.myAdvantureContainerr table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+  }
+  /* td {
+    max-width: 600px;
+    overflow: hidden;
+    word-wrap: break-word; 
+    
+  } */
+  
+  td {
+    max-width: 600px;
+    overflow: hidden;
+    white-space: nowrap; /* Prevents text from wrapping to a new line */
+    text-overflow: ellipsis; /* Display ellipsis when content overflows */
+  }
+  
+  
+  .ag11 th {
+    background-color: #ef0a0a;
+    color: white;
+    padding: 5px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons styling */
+  button {
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Center the table on the page */
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  

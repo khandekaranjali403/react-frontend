@@ -1,0 +1,273 @@
+
+
+
+
+.maindivimg{
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 700px;
+    height: 700px;
+    background: url(./picc/Girl\ and\ boy\ sitting\ with\ laptop.png )no-repeat;
+    /* background: position relative; */
+    background-size: 80% 500px;
+    
+    /* align-items: start; */
+}
+
+
+.authForm{
+   /* margin: 20px; */
+    display: block;
+    justify-content: center;
+    width: 150%;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    background:transparent;
+    /* color: white; */
+    border-radius: 30px;
+}
+#headingLogin{
+    font-size: 55px;
+    color: white;
+}
+
+.emaill {
+    
+    border: none;
+   
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px 2px rgb(198, 196, 196);
+}
+
+/* Add this block if you want to style the placeholder text */
+.emaill::placeholder {
+     placeholder: "Your placeholder text here";
+   
+}
+
+
+#name{
+padding: 8px 15px;
+font-size: 25px;
+margin: 5px;
+border-radius: 20px;
+}
+
+#email{
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 20px;
+
+
+}
+
+#mobile_no{
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 20px;
+ 
+}
+
+#password{
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 20px;
+
+
+}
+
+#ConfirmPass{
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 20px;
+
+
+}
+
+#files{
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 20px;
+    }
+
+#LoginBtn{
+
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: rgb(37, 123, 235);
+    color: white;
+    width:29%
+}
+#LoginBtn:hover{
+    transition: 0.5s;
+    transform:translateX(10px);
+    color: rgb(12, 12, 12);
+    background-color: rgb(14, 10, 232);
+}
+
+
+#signupBtn{
+    padding: 8px 15px;
+    font-size: 25px;
+    margin: 5px;
+    border-radius: 25px;
+
+
+}
+#signupBtn:hover{
+   transition: 0.5s;
+   transform:translateX(10px);
+   color: rgb(12, 12, 12);
+   background-color: rgb(14, 10, 232);
+}
+
+#topBtn1{
+    font-size: 35px;
+    color:black;
+    background-color:aqua;
+    padding: 5px 25px;
+    margin: 5px;
+    width: 40%;
+    
+}
+#topBtn1:hover{
+    
+background-color:rgb(103, 103, 237);
+}
+
+#topBtn2{
+    font-size: 35px;
+    color:black;
+    background-color:blue;
+    padding: 5px 25px;
+    margin: 5px;
+    width: 40%;
+
+
+}
+#topBtn2:hover{
+background-color:rgb(103, 103, 237);
+}
+
+
+.imagePreview{
+position: relative;
+bottom: 470px;
+left: 750px;
+}
+
+#previewpic{
+    width: 250px;
+    height: 250px;
+     margin-top: 10px;
+     border-radius: 50%;
+}
+
+
+.socialIconsLogin > img{
+        margin: 5px;
+        cursor: pointer;
+}
+
+.socialIconsLogin > img:hover{
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+
+.StoreIconss{
+    position: relative;
+    bottom: 180px;
+    left: 40px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .imagePreview{
+        position: relative;
+        bottom: 10px;
+        }
+        
+        #previewpic{
+            width: 150px;
+            height: 150px;
+             margin-top: 10px;
+             border-radius: 50%;
+        }
+        .maindivimg{
+            height: 700px;
+            background: url(./picc/Girl\ and\ boy\ sitting\ with\ laptop.png )no-repeat;
+            /* background: position relative; */
+            background-size: 100% 700px;
+        }
+        
+         
+}
+
+.bigee {
+    /* width :100%; */
+    /* background-color: red; */
+    /* margin-left: 70%; */
+}
+.bigee p{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(52, 136, 240);
+}
+
+/* .loginConatiner{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 30px;
+}
+
+#loginztext{
+    font-size: 35px;
+}
+
+
+.topLinkFrom{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.formLogin{
+    width: 300px;
+    font-size: 20px;
+}
+.formLogin input{
+width: 97%;
+height: 30px;
+font-size: 20px;
+margin: 10px 0px;
+}
+
+#loginBtn{
+    padding: 5px 12px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #4461F2;
+    color: white;
+
+}
+
+#soacilLinkk{
+    display: flex;
+    justify-content: space-around;
+}
+
+#soacilLinkk img{
+height: 40px;
+width: 40px;
+margin: 10px 0px;
+}
+ */

@@ -1,0 +1,53 @@
+/* App.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  } */
+  
+  h1 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: black;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.2s;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .stateDivCente{
+    margin: auto;
+    padding:  4px 20px;
+  }
+  .ulSatate{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: aliceblue;
+  }
+  .ulSatate li{
+    padding: 15px;
+margin: 10px;
+background-color: rgb(220, 221, 221);
+border-radius: 10px;
+  }

@@ -1,0 +1,25 @@
+.birHorozonsConatinerr{
+    margin-left: 20px;
+}
+
+.BirCArdss{
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 10px;   
+}
+
+
+.BirCArdss1,.BirCArdss2,.BirCArdss3,.BirCArdss4{
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px;
+    height: 180px;
+    width: 180px;
+    margin: 30px;
+}
+
+#birLogo1{
+margin: auto;
+height: 60px;
+width: 60px;
+}

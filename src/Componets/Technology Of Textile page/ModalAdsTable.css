@@ -1,0 +1,51 @@
+.modal-content-Ads{
+background-color: rgb(180, 178, 178);
+width: 1000px;
+padding: 20px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.modal-content-Ads table{
+    width: 100%;
+}
+
+
+
+.blurBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+    z-index: 9998;
+    padding: 5px;
+
+  }
+
+.blurForml {
+    position: fixed;
+    top: 42%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    overflow: hidden;
+    width: 25%;
+    background: white;
+    border-radius: 10px;
+  }
+
+
+  .blurForml label{
+    gap:50px;
+    margin: 20px;
+    font-size: 15px;
+   
+    font-weight: bold;
+  }
+  .blurForml input{
+    background-color: rgb(228, 227, 227);
+    border:none;
+
+  }
